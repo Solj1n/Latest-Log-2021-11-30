@@ -1,0 +1,1119 @@
+[30Nov2021 22:30:10.319] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.8, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[30Nov2021 22:30:10.322] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_311 by Oracle Corporation
+[30Nov2021 22:30:27.488] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[30Nov2021 22:30:27.519] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/Solj1n/Desktop/All%20the%20Mods%206%201.16.4/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[30Nov2021 22:30:29.376] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:0 token recognition error at: '`'
+[30Nov2021 22:30:29.468] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[30Nov2021 22:30:30.470] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[30Nov2021 22:30:30.472] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[30Nov2021 22:30:30.474] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.thevortex.allthetweaks.mixin.MixinConnector]
+[30Nov2021 22:30:30.476] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.leobeliik.extremesoundmuffler.MixinConnector]
+[30Nov2021 22:30:30.479] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[30Nov2021 22:30:30.482] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [eutros.framedcompactdrawers.MixinConnector]
+[30Nov2021 22:30:30.490] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[30Nov2021 22:30:30.647] [main/WARN] [mixin/]: Reference map 'modid.refmap.json' for rsinfinitybooster.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Nov2021 22:30:30.672] [main/WARN] [mixin/]: Reference map 'rhino-forge-refmap.json' for rhino.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Nov2021 22:30:30.684] [main/WARN] [mixin/]: Reference map 'ponderjs.refmap.json' for ponderjs.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Nov2021 22:30:30.910] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
+[30Nov2021 22:30:30.935] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
+[30Nov2021 22:30:31.091] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
+[30Nov2021 22:30:31.100] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
+[30Nov2021 22:30:31.105] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'allow_entity_interaction' ASM patch...
+[30Nov2021 22:30:31.116] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'allow_entity_interaction' ASM patch!
+[30Nov2021 22:30:31.258] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching CrossbowItem#onItemRightClick
+[30Nov2021 22:30:31.268] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching CrossbowItem#fireProjectile
+[30Nov2021 22:30:31.300] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching Item#getItemEnchantability
+[30Nov2021 22:30:31.355] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
+[30Nov2021 22:30:31.357] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
+[30Nov2021 22:30:31.362] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[30Nov2021 22:30:31.385] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching LivingEntity#blockUsingShield
+[30Nov2021 22:30:31.389] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching LivingEntity#applyPotionDamageCalculations
+[30Nov2021 22:30:31.392] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
+[30Nov2021 22:30:31.394] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
+[30Nov2021 22:30:31.552] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[30Nov2021 22:30:31.556] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
+[30Nov2021 22:30:31.567] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
+[30Nov2021 22:30:31.569] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
+[30Nov2021 22:30:31.574] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
+[30Nov2021 22:30:31.645] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching net/minecraft/loot/functions/EnchantRandomly
+[30Nov2021 22:30:31.711] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#<init>
+[30Nov2021 22:30:31.718] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#onCraftMatrixChanged
+[30Nov2021 22:30:31.723] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#transferStackInSlot
+[30Nov2021 22:30:31.930] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/inventory/ContainerScreen for invalid dist DEDICATED_SERVER
+[30Nov2021 22:30:31.930] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/ContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/inventory/ContainerScreen for invalid dist DEDICATED_SERVER)
+[30Nov2021 22:30:31.931] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.ContainerScreen was not found findme.mixins.json:MixinSlotRenderer
+[30Nov2021 22:30:31.956] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+[30Nov2021 22:30:31.956] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER)
+[30Nov2021 22:30:31.956] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.Screen was not found equipmentcompare.mixins.json:ScreenMixin
+[30Nov2021 22:30:31.992] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[30Nov2021 22:30:31.992] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[30Nov2021 22:30:31.993] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ClientElytraMixin
+[30Nov2021 22:30:32.055] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching Item#getItemEnchantability
+[30Nov2021 22:30:32.065] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[30Nov2021 22:30:32.068] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[30Nov2021 22:30:32.070] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
+[30Nov2021 22:30:32.072] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
+[30Nov2021 22:30:32.090] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[30Nov2021 22:30:32.091] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[30Nov2021 22:30:32.091] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
+[30Nov2021 22:30:32.091] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
+[30Nov2021 22:30:32.204] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching RepairContainer#updateRepairOutput
+[30Nov2021 22:30:32.211] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Successfully removed the anvil level cap.
+[30Nov2021 22:30:32.216] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching RepairContainer#updateRepairOutput
+[30Nov2021 22:30:32.222] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Successfully allowed nbt-unbreakable items in the anvil.
+[30Nov2021 22:30:32.223] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching net/minecraft/inventory/container/RepairContainer
+[30Nov2021 22:30:32.234] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_levels' ASM patch...
+[30Nov2021 22:30:32.236] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_levels' ASM patch!
+[30Nov2021 22:30:32.237] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_enchantments' ASM patch...
+[30Nov2021 22:30:32.238] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_enchantments' ASM patch!
+[30Nov2021 22:30:32.240] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_apply_modifier' ASM patch...
+[30Nov2021 22:30:32.241] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_apply_modifier' ASM patch!
+[30Nov2021 22:30:32.244] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#getEnchantmentModifierDamage
+[30Nov2021 22:30:32.248] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#getModifierForCreature
+[30Nov2021 22:30:32.252] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#applyThornEnchantments
+[30Nov2021 22:30:32.257] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#applyArthropodEnchantments
+[30Nov2021 22:30:32.261] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching buildEnchantmentList for the Enchantability affix.
+[30Nov2021 22:30:32.266] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#getEnchantmentDatas
+[30Nov2021 22:30:32.425] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[30Nov2021 22:30:32.431] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[30Nov2021 22:30:32.535] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching TemptGoal#isTempting
+[30Nov2021 22:30:33.327] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching Item#getItemEnchantability
+[30Nov2021 22:30:34.268] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
+[30Nov2021 22:30:34.268] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
+[30Nov2021 22:30:34.421] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
+[30Nov2021 22:30:34.421] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
+[30Nov2021 22:30:34.422] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[30Nov2021 22:30:34.426] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching LivingEntity#blockUsingShield
+[30Nov2021 22:30:34.426] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching LivingEntity#applyPotionDamageCalculations
+[30Nov2021 22:30:34.426] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
+[30Nov2021 22:30:34.427] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
+[30Nov2021 22:30:34.487] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[30Nov2021 22:30:34.487] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[30Nov2021 22:30:34.488] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
+[30Nov2021 22:30:34.489] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
+[30Nov2021 22:30:34.910] [main/INFO] [FerriteCore - class definer/]: Using Java 8 class definer
+[30Nov2021 22:30:35.312] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching SharedMonsterAttributes#readAttributeModifier
+[30Nov2021 22:30:35.544] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#<init>
+[30Nov2021 22:30:35.545] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#onCraftMatrixChanged
+[30Nov2021 22:30:35.545] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#transferStackInSlot
+[30Nov2021 22:30:35.612] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching RepairContainer#updateRepairOutput
+[30Nov2021 22:30:35.616] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Successfully removed the anvil level cap.
+[30Nov2021 22:30:35.617] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching RepairContainer#updateRepairOutput
+[30Nov2021 22:30:35.619] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Successfully allowed nbt-unbreakable items in the anvil.
+[30Nov2021 22:30:35.620] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching net/minecraft/inventory/container/RepairContainer
+[30Nov2021 22:30:35.810] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching CampfireTileEntity#findMatchingRecipe
+[30Nov2021 22:30:37.071] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching TemptGoal#isTempting
+[30Nov2021 22:30:37.449] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[30Nov2021 22:30:37.449] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
+[30Nov2021 22:30:37.451] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
+[30Nov2021 22:30:37.451] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
+[30Nov2021 22:30:37.452] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
+[30Nov2021 22:30:38.495] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching ItemArrow#isInfinite
+[30Nov2021 22:30:38.580] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching net/minecraft/item/EnchantedBookItem
+[30Nov2021 22:30:38.595] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching ItemArrow#isInfinite
+[30Nov2021 22:30:38.610] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching CrossbowItem#onItemRightClick
+[30Nov2021 22:30:38.611] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching CrossbowItem#fireProjectile
+[30Nov2021 22:30:38.691] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingBobberEntity#catchingFish
+[30Nov2021 22:30:38.983] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching net/minecraft/loot/functions/EnchantRandomly
+[30Nov2021 22:30:40.279] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:40.282] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:40.282] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:40.282] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:41.485] [main/INFO] [PluginManager/]: Scanning classes for titanium
+[30Nov2021 22:30:41.514] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class IndustrialForegoingResourcePlugin for plugin resources
+[30Nov2021 22:30:41.514] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class DefaultResourceRegistryPlugin for plugin resources
+[30Nov2021 22:30:41.750] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `edelwood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:41.753] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `edelwood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:41.753] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `cherrywood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:41.754] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `cherrywood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:41.754] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `mysterywood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:41.755] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `mysterywood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:41.862] [modloading-worker-7/INFO] [universalgrid/]: Loading config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\universalgrid-common.toml
+[30Nov2021 22:30:41.863] [modloading-worker-7/INFO] [universalgrid/]: Built config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\universalgrid-common.toml
+[30Nov2021 22:30:41.869] [modloading-worker-7/INFO] [universalgrid/]: Loaded config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\universalgrid-common.toml
+[30Nov2021 22:30:41.876] [modloading-worker-14/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[30Nov2021 22:30:41.879] [modloading-worker-15/INFO] [HammerLib/]: Registered charge handler for type org.zeith.hammerlib.util.charging.fluid.FluidCharge - org.zeith.hammerlib.util.charging.impl.FluidChargeHandler@2ab19926
+[30Nov2021 22:30:41.888] [modloading-worker-15/INFO] [HammerLib/]: Registered charge handler for type org.zeith.hammerlib.util.charging.fe.FECharge - org.zeith.hammerlib.util.charging.impl.FEChargeHandler@63472522
+[30Nov2021 22:30:41.903] [modloading-worker-11/INFO] [net.permutated.novillagerdm.NoVillagerDeathMessages/]: Registering mod: novillagerdm
+[30Nov2021 22:30:41.907] [modloading-worker-15/INFO] [HammerLib/]: Registered inventory lister org.zeith.hammerlib.util.charging.impl.VanillaPlayerInvLister
+[30Nov2021 22:30:41.922] [modloading-worker-7/INFO] [PluginManager/]: Scanning classes for industrialforegoing
+[30Nov2021 22:30:41.929] [modloading-worker-7/INFO] [PluginManager/]: Found FeaturePluginInstance for class ImmersiveEngineeringPlugin for plugin immersiveengineering
+[30Nov2021 22:30:41.930] [modloading-worker-7/INFO] [PluginManager/]: Found FeaturePluginInstance for class FTBChunksPlugin for plugin ftbchunks
+[30Nov2021 22:30:41.930] [modloading-worker-7/INFO] [PluginManager/]: Found FeaturePluginInstance for class AstralSorceryPlugin for plugin astralsorcery
+[30Nov2021 22:30:41.931] [modloading-worker-7/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[30Nov2021 22:30:41.939] [modloading-worker-7/INFO] [PluginManager/]: Constructed class ImmersiveEngineeringPlugin for plugin immersiveengineering for mod industrialforegoing
+[30Nov2021 22:30:41.940] [modloading-worker-7/INFO] [PluginManager/]: Constructed class FTBChunksPlugin for plugin ftbchunks for mod industrialforegoing
+[30Nov2021 22:30:41.941] [modloading-worker-7/INFO] [PluginManager/]: Constructed class AstralSorceryPlugin for plugin astralsorcery for mod industrialforegoing
+[30Nov2021 22:30:41.943] [modloading-worker-7/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[30Nov2021 22:30:41.944] [modloading-worker-7/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:30:41.958] [modloading-worker-7/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class FTBChunksPlugin
+[30Nov2021 22:30:41.960] [modloading-worker-7/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class AstralSorceryPlugin
+[30Nov2021 22:30:41.962] [modloading-worker-7/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[30Nov2021 22:30:41.962] [modloading-worker-0/INFO] [cabletiers/]: Loading config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\cabletiers-client.toml
+[30Nov2021 22:30:41.963] [modloading-worker-13/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'cooldown_tracker_set' ASM patch...
+[30Nov2021 22:30:41.963] [modloading-worker-0/INFO] [cabletiers/]: Built config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\cabletiers-client.toml
+[30Nov2021 22:30:41.970] [modloading-worker-13/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'cooldown_tracker_set' ASM patch!
+[30Nov2021 22:30:41.974] [modloading-worker-0/INFO] [cabletiers/]: Loaded config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\cabletiers-client.toml
+[30Nov2021 22:30:41.978] [modloading-worker-7/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:30:41.979] [modloading-worker-7/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class FTBChunksPlugin
+[30Nov2021 22:30:41.980] [modloading-worker-7/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class AstralSorceryPlugin
+[30Nov2021 22:30:41.980] [modloading-worker-7/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[30Nov2021 22:30:41.982] [modloading-worker-13/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
+[30Nov2021 22:30:41.983] [modloading-worker-13/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
+[30Nov2021 22:30:41.985] [modloading-worker-13/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'allow_entity_interaction' ASM patch...
+[30Nov2021 22:30:41.988] [modloading-worker-13/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'allow_entity_interaction' ASM patch!
+[30Nov2021 22:30:42.013] [modloading-worker-13/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'post_process_vanilla' ASM patch...
+[30Nov2021 22:30:42.015] [modloading-worker-13/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'post_process_vanilla' ASM patch!
+[30Nov2021 22:30:42.072] [modloading-worker-11/INFO] [PluginManager/]: Scanning classes for portality
+[30Nov2021 22:30:42.130] [modloading-worker-15/INFO] [HammerLib/]: Injecting setup into class org.zeith.hammerlib.net.Network
+[30Nov2021 22:30:42.152] [modloading-worker-15/INFO] [HammerLib/]: Injecting setup into class org.zeith.hammerlib.core.test.machine.RecipeTestMachine
+[30Nov2021 22:30:42.249] [modloading-worker-10/WARN] [ironfurnaces.IronFurnaces/]: You have disabled Iron Furnaces's Update Checker, to re-enable: change the value of Update Checker in .minecraft->config->ironfurnaces-client.toml to 'true'.
+[30Nov2021 22:30:42.250] [modloading-worker-12/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[30Nov2021 22:30:42.403] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: InfuserSetup: register
+[30Nov2021 22:30:42.406] [modloading-worker-1/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 3 RS API injection points
+[30Nov2021 22:30:42.412] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: SqueezerSetup: register
+[30Nov2021 22:30:42.413] [modloading-worker-1/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.YTrollman.UniversalGrid.UniversalGrid UNIVERSALGRIDAPI
+[30Nov2021 22:30:42.417] [modloading-worker-1/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in org.cyclops.integrateddynamicscompat.modcompat.refinedstorage.aspect.RefinedStorageAspects RS
+[30Nov2021 22:30:42.418] [modloading-worker-1/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[30Nov2021 22:30:42.419] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: OracleSetup: register
+[30Nov2021 22:30:42.505] [modloading-worker-5/INFO] [wile.engineerstools.ModEngineersTools/]: Engineer's Tools GIT id #2c4debb.
+[30Nov2021 22:30:42.518] [Phosphophyllite Registry Worker/INFO] [Phosphophyllite/Registry/]: Thread started
+[30Nov2021 22:30:42.574] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: FactorySetup: register
+[30Nov2021 22:30:42.595] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: LayoutSetup: register
+[30Nov2021 22:30:42.609] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: AnvilSetup: register
+[30Nov2021 22:30:42.616] [modloading-worker-14/INFO] [de.melanx.extradisks.ExtraDisks/]: 14 blocks registered.
+[30Nov2021 22:30:42.624] [modloading-worker-14/INFO] [de.melanx.extradisks.ExtraDisks/]: 29 items registered.
+[30Nov2021 22:30:42.625] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: FluidSetup: register
+[30Nov2021 22:30:42.628] [modloading-worker-14/INFO] [de.melanx.extradisks.ExtraDisks/]: 13 tiles registered.
+[30Nov2021 22:30:42.632] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: ToolsSetup: register
+[30Nov2021 22:30:42.636] [modloading-worker-14/INFO] [de.melanx.extradisks.ExtraDisks/]: 13 containers registered.
+[30Nov2021 22:30:42.641] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: DebugSetup: register
+[30Nov2021 22:30:42.646] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: GenericSetup: register
+[30Nov2021 22:30:42.664] [modloading-worker-9/INFO] [ipsis.woot.setup.ModSetup/]: FluidConvertor: register
+[30Nov2021 22:30:42.790] [modloading-worker-14/INFO] [creativeapiary/]: Loading config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creativeapiary-common.toml
+[30Nov2021 22:30:42.793] [modloading-worker-14/INFO] [creativeapiary/]: Built config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creativeapiary-common.toml
+[30Nov2021 22:30:42.836] [modloading-worker-14/INFO] [creativeapiary/]: Loaded config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creativeapiary-common.toml
+[30Nov2021 22:30:42.847] [modloading-worker-9/INFO] [JarSignVerifier/]: Mod usefulrailroads is signed with a valid certificate.
+[30Nov2021 22:30:42.983] [modloading-worker-11/INFO] [creativecrafter/]: Loading config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creativecrafter-client.toml
+[30Nov2021 22:30:42.998] [modloading-worker-11/INFO] [creativecrafter/]: Built config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creativecrafter-client.toml
+[30Nov2021 22:30:43.004] [modloading-worker-11/INFO] [creativecrafter/]: Loaded config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creativecrafter-client.toml
+[30Nov2021 22:30:43.125] [modloading-worker-14/INFO] [Advanced Peripherals/]: AdvancedPeripherals says hello!
+[30Nov2021 22:30:43.164] [modloading-worker-7/INFO] [PluginManager/]: Executing phase INIT for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:30:43.166] [modloading-worker-7/INFO] [PluginManager/]: Executing phase INIT for plugin class FTBChunksPlugin
+[30Nov2021 22:30:43.169] [modloading-worker-7/INFO] [PluginManager/]: Executing phase INIT for plugin class AstralSorceryPlugin
+[30Nov2021 22:30:43.171] [modloading-worker-7/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
+[30Nov2021 22:30:43.210] [modloading-worker-9/INFO] [de.melanx.aiotbotania.AIOTBotania/]: Items registered.
+[30Nov2021 22:30:43.216] [modloading-worker-9/INFO] [de.melanx.aiotbotania.AIOTBotania/]: Blocks registered.
+[30Nov2021 22:30:43.216] [modloading-worker-9/INFO] [de.melanx.aiotbotania.AIOTBotania/]: Global loot modifiers registered.
+[30Nov2021 22:30:43.257] [modloading-worker-6/INFO] [wile.rsgauges.ModRsGauges/]: Gauges and Switches GIT id #e1192f4.
+[30Nov2021 22:30:43.260] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:not'
+[30Nov2021 22:30:43.272] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:and'
+[30Nov2021 22:30:43.274] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:or'
+[30Nov2021 22:30:43.278] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:gear_type'
+[30Nov2021 22:30:43.283] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:material_count'
+[30Nov2021 22:30:43.290] [modloading-worker-7/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:30:43.326] [modloading-worker-7/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class FTBChunksPlugin
+[30Nov2021 22:30:43.320] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:material_ratio'
+[30Nov2021 22:30:43.326] [modloading-worker-7/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class AstralSorceryPlugin
+[30Nov2021 22:30:43.334] [modloading-worker-7/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
+[30Nov2021 22:30:43.337] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:primary_material'
+[30Nov2021 22:30:43.338] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:simple_trait'
+[30Nov2021 22:30:43.343] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:damage_type_trait'
+[30Nov2021 22:30:43.370] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:durability_trait'
+[30Nov2021 22:30:43.372] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:enchantment_trait'
+[30Nov2021 22:30:43.391] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:nbt_trait'
+[30Nov2021 22:30:43.411] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:potion_effect_trait'
+[30Nov2021 22:30:43.414] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:stat_modifier_trait'
+[30Nov2021 22:30:43.418] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:attribute_trait'
+[30Nov2021 22:30:43.447] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:block_placer'
+[30Nov2021 22:30:43.461] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:block_filler'
+[30Nov2021 22:30:43.467] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:synergy'
+[30Nov2021 22:30:43.469] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:target_effect'
+[30Nov2021 22:30:43.472] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:bonus_drops'
+[30Nov2021 22:30:43.479] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:cancel_effects'
+[30Nov2021 22:30:43.491] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:self_repair'
+[30Nov2021 22:30:43.493] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:stellar'
+[30Nov2021 22:30:43.494] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'managear:mana'
+[30Nov2021 22:30:43.502] [modloading-worker-3/INFO] [Silent Gear/TraitManager]: Registered serializer 'managear:manaburst'
+[30Nov2021 22:30:43.651] [modloading-worker-9/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[30Nov2021 22:30:43.678] [modloading-worker-3/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_condition' ASM patch...
+[30Nov2021 22:30:43.684] [modloading-worker-3/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_condition' ASM patch!
+[30Nov2021 22:30:43.707] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.8, for MC 1.16.5 with MCP 20210115.111550
+[30Nov2021 22:30:43.708] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.8 Initialized
+[30Nov2021 22:30:43.735] [modloading-worker-6/INFO] [TerraForged/]: Environment: dev=false, stable=true, vanilla=false
+[30Nov2021 22:30:43.738] [modloading-worker-6/INFO] [TerraForged/]: Signature:  7b:73:d0:a2:c3:40:13:84:35:4f:c9:0e:2b:85:8c:08:ea:3c:3c:eb:f1:98:8b:5b:6e:ca:8a:a0:9a:cf:12:b3
+[30Nov2021 22:30:43.741] [modloading-worker-6/INFO] [TerraForged/]: Trust Data: CN=TerraForged self-signed
+[30Nov2021 22:30:43.745] [modloading-worker-6/INFO] [TerraForged/]: Initializing tags
+[30Nov2021 22:30:43.916] [modloading-worker-1/INFO] [STDOUT/]: [cofh.core.init.CoreConfig:genClientConfig:110]: Client config gen
+[30Nov2021 22:30:43.994] [modloading-worker-7/ERROR] [equipmentcompare/]: Running on a dedicated server, disabling mod.
+[30Nov2021 22:30:44.034] [modloading-worker-7/INFO] [chocolate/]: Vanilla is real good, but chocolate is better, let's be honest. :)
+[30Nov2021 22:30:44.067] [modloading-worker-1/INFO] [JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
+[30Nov2021 22:30:44.099] [modloading-worker-0/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Setting up config paths...
+[30Nov2021 22:30:44.213] [modloading-worker-5/INFO] [pneumaticcraft/]: Thirdparty integration activated for [theoneprobe,cofh_core,immersiveengineering,computercraft,jei,botania,mekanism,curios,patchouli,appliedenergistics2]
+[30Nov2021 22:30:44.253] [modloading-worker-5/INFO] [SolarFlux/]: Added Draconic Evolution compatibility to Solar Flux.
+[30Nov2021 22:30:44.404] [modloading-worker-0/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Bee Registry Initialized...
+[30Nov2021 22:30:44.406] [modloading-worker-0/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Trait Registry Initialized...
+[30Nov2021 22:30:44.407] [modloading-worker-0/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Bee Registration Enabled...
+[30Nov2021 22:30:44.428] [modloading-worker-0/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Building Biome Dictionary...
+[30Nov2021 22:30:44.440] [modloading-worker-1/WARN] [net.minecraftforge.server.permission.PermissionAPI/]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with dev.ftb.mods.ftbranks.forge.PermissionAPIWrapper
+[30Nov2021 22:30:44.481] [modloading-worker-10/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'post_process_vanilla' ASM patch...
+[30Nov2021 22:30:44.482] [modloading-worker-10/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'post_process_vanilla' ASM patch!
+[30Nov2021 22:30:44.568] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.BetterChannel$PartialPacketBegin
+[30Nov2021 22:30:44.753] [modloading-worker-9/INFO] [nikita488.zycraft.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[30Nov2021 22:30:44.756] [modloading-worker-0/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Custom Bees...
+[30Nov2021 22:30:44.785] [modloading-worker-6/INFO] [twilightforest/]: Loaded compatibility for mod immersiveengineering.
+[30Nov2021 22:30:44.858] [modloading-worker-4/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_player_field' ASM patch...
+[30Nov2021 22:30:44.873] [modloading-worker-4/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_player_field' ASM patch!
+[30Nov2021 22:30:44.984] [modloading-worker-14/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[30Nov2021 22:30:45.027] [modloading-worker-7/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.3...
+[30Nov2021 22:30:45.417] [modloading-worker-11/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[30Nov2021 22:30:45.440] [modloading-worker-11/INFO] [KubeJS/]: Found kubejs plugin
+[30Nov2021 22:30:45.444] [modloading-worker-3/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ars_nouveau` for name `glyph_sentientharm`, expected `tomeofblood`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:45.478] [modloading-worker-1/INFO] [brandonscore/]: Knock Knock...
+[30Nov2021 22:30:45.479] [modloading-worker-1/WARN] [draconicevolution/]: Reactor detonation initiated.
+[30Nov2021 22:30:45.480] [modloading-worker-1/INFO] [brandonscore/]: Wait... NO! What?
+[30Nov2021 22:30:45.480] [modloading-worker-1/INFO] [brandonscore/]: Stop That! That's not how this works!
+[30Nov2021 22:30:45.480] [modloading-worker-1/WARN] [draconicevolution/]: Calculating explosion ETA
+[30Nov2021 22:30:45.480] [modloading-worker-1/INFO] [brandonscore/]: Ahh... NO... NONONO! DONT DO THAT!!! STOP THIS NOW!
+[30Nov2021 22:30:45.480] [modloading-worker-1/WARN] [draconicevolution/]: **Explosion Imminent!!!**
+[30Nov2021 22:30:45.480] [modloading-worker-1/INFO] [brandonscore/]: Well...... fork...
+[30Nov2021 22:30:45.490] [modloading-worker-0/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Custom Honeys..
+[30Nov2021 22:30:45.607] [modloading-worker-11/INFO] [KubeJS/]: Found kubejs_thermal plugin
+[30Nov2021 22:30:45.655] [modloading-worker-11/INFO] [KubeJS/]: Found kubejs_create plugin
+[30Nov2021 22:30:45.674] [modloading-worker-4/INFO] [PluginManager/]: Scanning classes for titanium
+[30Nov2021 22:30:45.674] [modloading-worker-11/INFO] [KubeJS/]: Found kubejs_immersive_engineering plugin
+[30Nov2021 22:30:45.684] [modloading-worker-11/INFO] [KubeJS/]: Found kubejs_mekanism plugin
+[30Nov2021 22:30:45.697] [modloading-worker-11/INFO] [KubeJS/]: Found kubejs_blood_magic plugin
+[30Nov2021 22:30:45.711] [modloading-worker-4/INFO] [PluginManager/]: Constructed class IndustrialForegoingResourcePlugin for plugin resources for mod titanium
+[30Nov2021 22:30:45.713] [modloading-worker-4/INFO] [PluginManager/]: Constructed class DefaultResourceRegistryPlugin for plugin resources for mod titanium
+[30Nov2021 22:30:45.713] [modloading-worker-4/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class IndustrialForegoingResourcePlugin
+[30Nov2021 22:30:45.714] [modloading-worker-5/INFO] [com.ma.ManaAndArtifice/]: M&A -> Config Loaded
+[30Nov2021 22:30:45.720] [modloading-worker-11/INFO] [KubeJS/]: Found ponderjs plugin
+[30Nov2021 22:30:45.731] [modloading-worker-11/INFO] [KubeJS/]: Found ftbchunks plugin
+[30Nov2021 22:30:45.740] [modloading-worker-4/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class DefaultResourceRegistryPlugin
+[30Nov2021 22:30:45.772] [modloading-worker-11/INFO] [KubeJS/]: Done in 0 s
+[30Nov2021 22:30:45.827] [modloading-worker-8/INFO] [ctiers/]: Loading config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\ctiers-common.toml
+[30Nov2021 22:30:45.829] [modloading-worker-8/INFO] [ctiers/]: Built config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\ctiers-common.toml
+[30Nov2021 22:30:45.841] [modloading-worker-8/INFO] [ctiers/]: Loaded config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\ctiers-common.toml
+[30Nov2021 22:30:45.912] [modloading-worker-4/INFO] [creativewirelesstransmitter/]: Loading config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creative_wireless_transmitter-client.toml
+[30Nov2021 22:30:45.917] [modloading-worker-4/INFO] [creativewirelesstransmitter/]: Built config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creative_wireless_transmitter-client.toml
+[30Nov2021 22:30:45.923] [modloading-worker-4/INFO] [creativewirelesstransmitter/]: Loaded config: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\creative_wireless_transmitter-client.toml
+[30Nov2021 22:30:45.978] [modloading-worker-11/INFO] [KubeJS/]: Loaded common.properties
+[30Nov2021 22:30:45.983] [modloading-worker-4/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Forge
+[30Nov2021 22:30:46.033] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[30Nov2021 22:30:46.065] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalcustomization.lib.ModCorePlugin
+[30Nov2021 22:30:46.084] [modloading-worker-10/INFO] [net.permutated.pylons.Pylons/]: Registering mod: pylons
+[30Nov2021 22:30:46.091] [modloading-worker-4/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Vanilla
+[30Nov2021 22:30:46.110] [modloading-worker-8/INFO] [wile.engineersdecor.ModEngineersDecor/]: Engineer's Decor GIT id #c213a42.
+[30Nov2021 22:30:46.119] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[30Nov2021 22:30:46.111] [modloading-worker-4/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Storage Drawers
+[30Nov2021 22:30:46.172] [modloading-worker-4/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Industrialforegoing
+[30Nov2021 22:30:46.193] [modloading-worker-1/INFO] [team.chisel.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[30Nov2021 22:30:46.232] [modloading-worker-4/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Thermal_expansion
+[30Nov2021 22:30:46.237] [modloading-worker-3/INFO] [expandability/]: ExpandAbility here, who dis?
+[30Nov2021 22:30:46.267] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\config\botanicalmachinery-client.toml is not correct. Correcting
+[30Nov2021 22:30:46.297] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key numericalMana was corrected from null to its default, true. 
+[30Nov2021 22:30:46.298] [modloading-worker-4/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Bloodmagic
+[30Nov2021 22:30:46.313] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Nov2021 22:30:46.314] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering.all was corrected from null to its default, true. 
+[30Nov2021 22:30:46.314] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering.alfheim-market was corrected from null to its default, true. 
+[30Nov2021 22:30:46.315] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering.industrial-agglomeration-factory was corrected from null to its default, true. 
+[30Nov2021 22:30:46.319] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering.mechanical-apothecary was corrected from null to its default, true. 
+[30Nov2021 22:30:46.323] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering.mechanical-brewery was corrected from null to its default, true. 
+[30Nov2021 22:30:46.323] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering.mechanical-daisy was corrected from null to its default, true. 
+[30Nov2021 22:30:46.325] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering.mechanical-mana-pool was corrected from null to its default, true. 
+[30Nov2021 22:30:46.325] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced-rendering.mechanical-runic-altar was corrected from null to its default, true. 
+[30Nov2021 22:30:46.335] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\defaultconfigs\botanicalmachinery-server.toml is not correct. Correcting
+[30Nov2021 22:30:46.370] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key working-duration-multiplier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Nov2021 22:30:46.379] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key working-duration-multiplier.alfheim-market was corrected from null to its default, 1. 
+[30Nov2021 22:30:46.380] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key working-duration-multiplier.industrial-agglomeration-factory was corrected from null to its default, 1. 
+[30Nov2021 22:30:46.376] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:t_corridor
+[30Nov2021 22:30:46.380] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key working-duration-multiplier.mechanical-mana-pool was corrected from null to its default, 1. 
+[30Nov2021 22:30:46.390] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key working-duration-multiplier.mechanical-runic-altar was corrected from null to its default, 1. 
+[30Nov2021 22:30:46.391] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key working-duration-multiplier.mechanical-daisy was corrected from null to its default, 3. 
+[30Nov2021 22:30:46.40[30Nov2021 22:31:07.046] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:31:07.046] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FTBChunksPlugin
+[30Nov2021 22:31:07.047] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class AstralSorceryPlugin
+[30Nov2021 22:31:07.048] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[30Nov2021 22:31:07.626] [Thread-1/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[30Nov2021 22:31:07.626] [Thread-1/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[30Nov2021 22:33:46.012] [Netty Server IO #18/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[30Nov2021 22:33:46.052] [Netty Server IO #18/WARN] [com.connectivity.Connectivity/]: Login payload for Registry minecraft:item is using 102.8388% of max allowed vanilla size and will cause errors during login if connectivity is not present on client side.
+[30Nov2021 22:33:46.061] [Netty Server IO #18/WARN] [com.connectivity.Connectivity/]: Login payload for Registry minecraft:block is using 75.6598% of max allowed vanilla size
+[30Nov2021 22:33:46.688] [User Authenticator #6/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Solj1n is 77a8e14f-53d6-4abd-a7e7-aea52b6ed9e7
+[30Nov2021 22:34:06.919] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4ed77bd5
+[30Nov2021 22:34:06.953] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Solj1n[/24.231.73.56:50237] logged in with entity id 533601 at (4228.200913676578, 76.0, 558.7531627865743)
+[30Nov2021 22:34:06.982] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Solj1n joined the game
+[30Nov2021 22:34:07.282] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Client logged in: sending dimlet packages
+[30Nov2021 22:34:07.810] [Netty Server IO #18/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize xiroc.dungeoncrawl.command.argument.ThemeArgument@73bc4a00 (class xiroc.dungeoncrawl.command.argument.ThemeArgument) - will not be sent to client!
+[30Nov2021 22:34:07.811] [Netty Server IO #18/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize xiroc.dungeoncrawl.command.argument.SecondaryThemeArgument@2f00e41e (class xiroc.dungeoncrawl.command.argument.SecondaryThemeArgument) - will not be sent to client!
+[30Nov2021 22:34:08.182] [Netty Server IO #18/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize xiroc.dungeoncrawl.command.argument.ThemeArgument@73bc4a00 (class xiroc.dungeoncrawl.command.argument.ThemeArgument) - will not be sent to client!
+[30Nov2021 22:34:08.183] [Netty Server IO #18/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize xiroc.dungeoncrawl.command.argument.SecondaryThemeArgument@2f00e41e (class xiroc.dungeoncrawl.command.argument.SecondaryThemeArgument) - will not be sent to client!
+[30Nov2021 22:38:00.482] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Solj1n lost connection: Disconnected
+[30Nov2021 22:38:00.482] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Solj1n left the game
+[STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:ore_hold_1
+[30Nov2021 22:30:46.426] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@2d444541
+[30Nov2021 22:30:46.428] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:straight_corridor
+[30Nov2021 22:30:46.430] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@faae34b
+[30Nov2021 22:30:46.433] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:spiral_staircase
+[30Nov2021 22:30:46.434] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@635e4436
+[30Nov2021 22:30:46.437] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:t3_entrance
+[30Nov2021 22:30:46.438] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@5489b1cf
+[30Nov2021 22:30:46.442] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/library
+[30Nov2021 22:30:46.445] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@5b659595
+[30Nov2021 22:30:46.446] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/armoury
+[30Nov2021 22:30:46.447] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@5f05e48e
+[30Nov2021 22:30:46.449] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/farm
+[30Nov2021 22:30:46.451] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@29fd7c6a
+[30Nov2021 22:30:46.453] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/portal_nether
+[30Nov2021 22:30:46.454] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@677cfdcc
+[30Nov2021 22:30:46.471] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/crypt
+[30Nov2021 22:30:46.480] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@7f416ad6
+[30Nov2021 22:30:46.482] [modloading-worker-13/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:223]: # schematics: 12
+[30Nov2021 22:30:46.648] [modloading-worker-7/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching vazkii/quark/content/tools/module/AncientTomesModule
+[30Nov2021 22:30:46.689] [modloading-worker-7/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching vazkii/quark/content/tools/item/AncientTomeItem
+[30Nov2021 22:30:46.970] [modloading-worker-5/INFO] [com.ma.ManaAndArtifice/]: M&A -> Mod Event Bus Handlers Registered
+[30Nov2021 22:30:47.308] [modloading-worker-11/INFO] [KubeJS Startup/]: Loaded script startup_scripts:custom_items.js in 0.195 s
+[30Nov2021 22:30:47.332] [modloading-worker-11/INFO] [KubeJS Startup/]: Loaded script startup_scripts:modification.js in 0.023 s
+[30Nov2021 22:30:47.333] [modloading-worker-11/INFO] [KubeJS Startup/]: Loaded script startup_scripts:worldgen.js in 0.001 s
+[30Nov2021 22:30:47.333] [modloading-worker-11/INFO] [KubeJS Startup/]: Loaded 3/3 KubeJS startup scripts in 0.691 s
+[30Nov2021 22:30:48.158] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.BetterChannel$PartialPacketBegin
+[30Nov2021 22:30:48.160] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.BetterChannel$PartialPacketData
+[30Nov2021 22:30:48.166] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.BetterChannel$PartialPacketData
+[30Nov2021 22:30:48.169] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.C2SPacket$InitTPSProfile
+[30Nov2021 22:30:48.176] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.C2SPacket$InitTPSProfile
+[30Nov2021 22:30:48.178] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.C2SPacket$RequestTeleport
+[30Nov2021 22:30:48.183] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.C2SPacket$RequestTeleport
+[30Nov2021 22:30:48.185] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.C2SPacket$RequestAvailability
+[30Nov2021 22:30:48.190] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.C2SPacket$RequestAvailability
+[30Nov2021 22:30:48.191] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingStarted
+[30Nov2021 22:30:48.197] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingStarted
+[30Nov2021 22:30:48.199] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingCompleted
+[30Nov2021 22:30:48.204] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingCompleted
+[30Nov2021 22:30:48.206] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingResult
+[30Nov2021 22:30:48.210] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingResult
+[30Nov2021 22:30:48.213] [modloading-worker-15/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$Availability
+[30Nov2021 22:30:48.228] [modloading-worker-15/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$Availability
+[30Nov2021 22:30:48.455] [main/INFO] [com.ma.ManaAndArtifice/]: Finished registering registries!
+[30Nov2021 22:30:49.347] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `anvil`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.347] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `chipped_anvil`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.348] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `damaged_anvil`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.353] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `enchanting_table`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.355] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `enchanting_table`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.356] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `spawner`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.356] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `spawner`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.357] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cactus`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.357] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cactus`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.359] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `sugar_cane`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.359] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `sugar_cane`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.360] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `bamboo`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.360] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `bamboo`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.361] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `fletching_table`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.361] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `fletching_table`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:49.783] [main/INFO] [corail_woodcutter/]: missing extension for "Oh Biome You'll Go" recipes
+[30Nov2021 22:30:50.005] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerBlocks
+[30Nov2021 22:30:50.300] [main/INFO] [wile.engineerstools.ModEngineersTools/]: Registered 3 blocks.
+[30Nov2021 22:30:50.457] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `air_rod`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.457] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `agricarnation`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.458] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `altar_craft`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.458] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `arcane_rose_disenchant`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.459] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `babylon_attack`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.459] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `babylon_spawn`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.459] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `bellows`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.460] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `bifrost_rod`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.460] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `black_lotus`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.460] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `dash`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.460] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `ding`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.461] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `diva_charm`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.461] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `divination_rod`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.461] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `doit`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.462] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `enchanter_fade`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.462] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `enchanter_form`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.462] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `enchanter_enchant`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.463] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `endoflame`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.463] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `equip_bauble`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.463] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `gaia_trap`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.464] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `holy_cloak`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.465] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `labellia`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.465] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `laputa_start`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.465] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `lexicon_open`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.466] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `lexicon_page`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.466] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `light_relay`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.466] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `mana_blaster`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.467] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `mana_pool_craft`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.467] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `missile`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.467] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `orechid`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.467] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `potion_create`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.468] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `rune_altar_craft`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.468] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `rune_altar_start`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.468] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `spreader_fire`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.469] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `starcaller`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.469] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `terrablade`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.469] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `terraform_rod`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.470] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `terra_pick_mode`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.470] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `terrasteel_craft`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.470] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `thermalily`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.470] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `unholy_cloak`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.471] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `way`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.471] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `music.gaia1`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:50.471] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `music.gaia2`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:51.238] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
+[30Nov2021 22:30:51.487] [main/INFO] [wile.rsgauges.ModRsGauges/]: Registered 94 blocks.
+[30Nov2021 22:30:51.567] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `iceandfire` for name `allthemodium_pile`, expected `allthemodium`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:51.567] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `iceandfire` for name `unobtainium_pile`, expected `allthemodium`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:51.568] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `iceandfire` for name `vibranium_pile`, expected `allthemodium`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:51.621] [main/INFO] [Dark Utilities/]: Registered 45 Block entries in 0.59ms.
+[30Nov2021 22:30:51.622] [main/INFO] [Botany Pots/]: Registered 34 Block entries in 0.56ms.
+[30Nov2021 22:30:54.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: The object Block{immersivepetroleum:distillationtower} has been registered twice for the same name immersivepetroleum:distillationtower.
+[30Nov2021 22:30:54.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: The object Block{immersivepetroleum:pumpjack} has been registered twice for the same name immersivepetroleum:pumpjack.
+[30Nov2021 22:30:54.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: The object Block{immersivepetroleum:cokerunit} has been registered twice for the same name immersivepetroleum:cokerunit.
+[30Nov2021 22:30:54.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: The object Block{immersivepetroleum:hydrotreater} has been registered twice for the same name immersivepetroleum:hydrotreater.
+[30Nov2021 22:30:54.523] [main/INFO] [Mystical Agriculture/]: mysticalcustomization tried to register a duplicate crop with name fluorite, skipping
+[30Nov2021 22:30:54.528] [main/INFO] [Mystical Agriculture/]: mysticalcustomization tried to register a duplicate crop with name uraninite, skipping
+[30Nov2021 22:30:54.860] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `carved_pumpkin`, expected `omgourd`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:54.860] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `jack_o_lantern`, expected `omgourd`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:54.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:54.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:55.465] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Immersive Engineering also installed ...
+[30Nov2021 22:30:55.466] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 118 blocks.
+[30Nov2021 22:30:55.754] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shears`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:55.755] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `anvil`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:55.755] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `chipped_anvil`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:55.755] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `damaged_anvil`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:55.783] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:55.884] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerItems
+[30Nov2021 22:30:55.915] [main/INFO] [wile.engineerstools.ModEngineersTools/]: Registered 17 items.
+[30Nov2021 22:30:56.223] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
+[30Nov2021 22:30:56.633] [main/INFO] [wile.rsgauges.ModRsGauges/]: Registered 1 items.
+[30Nov2021 22:30:56.730] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: The object air has been registered twice for the same name minecraft:air.
+[30Nov2021 22:30:56.731] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: The object air has been registered twice for the same name minecraft:air.
+[30Nov2021 22:30:56.731] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: The object air has been registered twice for the same name minecraft:air.
+[30Nov2021 22:30:56.817] [main/INFO] [Dark Utilities/]: Registered 53 Item entries in 0.7ms.
+[30Nov2021 22:30:56.818] [main/INFO] [Botany Pots/]: Registered 34 Item entries in 0.43ms.
+[30Nov2021 22:30:56.865] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `iron_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:56.865] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `golden_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:56.866] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:56.868] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `leather_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:56.869] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shield`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:56.869] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shears`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:57.794] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 516 ms
+[30Nov2021 22:30:58.808] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Block Items Registered
+[30Nov2021 22:30:58.947] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `carved_pumpkin`, expected `omgourd`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:58.947] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `jack_o_lantern`, expected `omgourd`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:30:59.359] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/melee_damage.json, path: /data/bloodmagic/anointment/melee_damage.json
+[30Nov2021 22:30:59.373] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/holy_water.json, path: /data/bloodmagic/anointment/holy_water.json
+[30Nov2021 22:30:59.374] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/hidden_knowledge.json, path: /data/bloodmagic/anointment/hidden_knowledge.json
+[30Nov2021 22:30:59.376] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/quick_draw.json, path: /data/bloodmagic/anointment/quick_draw.json
+[30Nov2021 22:30:59.377] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_power.json, path: /data/bloodmagic/anointment/bow_power.json
+[30Nov2021 22:30:59.379] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_velocity.json, path: /data/bloodmagic/anointment/bow_velocity.json
+[30Nov2021 22:30:59.390] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/arrow_protect.json, path: /data/bloodmagic/living_armor/arrow_protect.json
+[30Nov2021 22:30:59.402] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fall_protect.json, path: /data/bloodmagic/living_armor/fall_protect.json
+[30Nov2021 22:30:59.404] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/physical_protect.json, path: /data/bloodmagic/living_armor/physical_protect.json
+[30Nov2021 22:30:59.405] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/jump.json, path: /data/bloodmagic/living_armor/jump.json
+[30Nov2021 22:30:59.407] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/health.json, path: /data/bloodmagic/living_armor/health.json
+[30Nov2021 22:30:59.410] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/experienced.json, path: /data/bloodmagic/living_armor/experienced.json
+[30Nov2021 22:30:59.411] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/sprint_attack.json, path: /data/bloodmagic/living_armor/sprint_attack.json
+[30Nov2021 22:30:59.415] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/self_sacrifice.json, path: /data/bloodmagic/living_armor/self_sacrifice.json
+[30Nov2021 22:30:59.416] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/speed.json, path: /data/bloodmagic/living_armor/speed.json
+[30Nov2021 22:30:59.418] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/poison_resist.json, path: /data/bloodmagic/living_armor/poison_resist.json
+[30Nov2021 22:30:59.419] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fire_resist.json, path: /data/bloodmagic/living_armor/fire_resist.json
+[30Nov2021 22:30:59.420] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/digging.json, path: /data/bloodmagic/living_armor/digging.json
+[30Nov2021 22:30:59.422] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/knockback_resist.json, path: /data/bloodmagic/living_armor/knockback_resist.json
+[30Nov2021 22:30:59.423] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/elytra.json, path: /data/bloodmagic/living_armor/elytra.json
+[30Nov2021 22:30:59.425] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:184]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/quenched.json, path: /data/bloodmagic/living_armor/downgrade/quenched.json
+[30Nov2021 22:30:59.646] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerLootModifierSerializer
+[30Nov2021 22:30:59.662] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.16ms.
+[30Nov2021 22:30:59.692] [main/INFO] [TerraForged/]: Registering level types
+[30Nov2021 22:30:59.810] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Ritual Effects Registered
+[30Nov2021 22:31:00.502] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `enchanting_table`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:00.599] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerTileEntities
+[30Nov2021 22:31:00.601] [main/INFO] [wile.engineerstools.ModEngineersTools/]: Registered 0 tile entities.
+[30Nov2021 22:31:00.734] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `resourcefulbees` for name `creative_apiary`, expected `creativeapiary`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:00.736] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `resourcefulbees` for name `creative_apiary_storage`, expected `creativeapiary`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:00.737] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `resourcefulbees` for name `creative_apiary_breeder`, expected `creativeapiary`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:00.752] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[30Nov2021 22:31:00.802] [main/INFO] [wile.rsgauges.ModRsGauges/]: Registered 10 tile entities.
+[30Nov2021 22:31:00.834] [main/INFO] [Dark Utilities/]: Registered 2 TileEntityType entries in 0.07ms.
+[30Nov2021 22:31:00.834] [main/INFO] [Botany Pots/]: Registered 1 TileEntityType entries in 0.02ms.
+[30Nov2021 22:31:01.054] [main/INFO] [wayoftime.bloodmagic.BloodMagic/]: Attempting to register Tile Entities
+[30Nov2021 22:31:01.174] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 18 tile entities.
+[30Nov2021 22:31:01.209] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `bane_of_arthropods`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.209] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `smite`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.210] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `sharpness`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.211] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `protection`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.211] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `fire_protection`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.211] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blast_protection`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.212] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `projectile_protection`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.212] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `feather_falling`, expected `apotheosis`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.217] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerEnchantments
+[30Nov2021 22:31:01.232] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.232] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blast_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.232] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `feather_falling`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.233] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `fire_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.233] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `projectile_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.233] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `fire_aspect`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.234] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `frost_walker`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.234] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `knockback`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.235] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `looting`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.235] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `thorns`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.235] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `mending`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.300] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farmingforblockheads:merchant, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:01.329] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
+[30Nov2021 22:31:01.486] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for elementalcraft:earthgolem, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:01.698] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 1 entities bound to blocks.
+[30Nov2021 22:31:01.707] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `menril_resin`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.708] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `menril_resin_flowing`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.708] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `liquid_chorus`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.708] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `liquid_chorus_flowing`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.720] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.720] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[30Nov2021 22:31:01.842] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[30Nov2021 22:31:02.272] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Containers Registered
+[30Nov2021 22:31:02.308] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 8 containers bound to tile entities.
+[30Nov2021 22:31:02.536] [main/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.client.particle.ModParticles:registerParticles:23]: Rendering particles
+[30Nov2021 22:31:02.645] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Villager POI Registered
+[30Nov2021 22:31:04.237] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerRecipeSerializer
+[30Nov2021 22:31:04.378] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[30Nov2021 22:31:04.378] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.11ms.
+[30Nov2021 22:31:04.379] [main/INFO] [Botany Pots/]: Registered 3 IRecipeSerializer entries in 0.05ms.
+[30Nov2021 22:31:04.944] [main/INFO] [immersivepetroleum/]: Loading sounds.
+[30Nov2021 22:31:04.946] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Sounds registered!
+[30Nov2021 22:31:04.996] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Villager Professions Registered
+[30Nov2021 22:31:06.083] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
+[30Nov2021 22:31:06.110] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
+[30Nov2021 22:31:06.141] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
+[30Nov2021 22:31:06.142] [main/INFO] [TerraForged/]: Registering decorators
+[30Nov2021 22:31:06.203] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
+[30Nov2021 22:31:06.203] [main/INFO] [TerraForged/]: Registering features
+[30Nov2021 22:31:06.335] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
+[30Nov2021 22:31:06.598] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
+[30Nov2021 22:31:06.703] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityHippogryph from class com.github.alexthe666.iceandfire.entity.EntityPixie
+[30Nov2021 22:31:06.712] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDreadThrall from class com.github.alexthe666.iceandfire.entity.EntityDreadKnight
+[30Nov2021 22:31:06.945] [main/INFO] [wile.engineerstools.ModEngineersTools/]: Loading config file engineerstools-common.toml
+[30Nov2021 22:31:07.034] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:31:07.034] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[30Nov2021 22:31:07.035] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[30Nov2021 22:31:07.035] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[30Nov2021 22:31:07.040] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:31:07.040] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[30Nov2021 22:31:07.040] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[30Nov2021 22:31:07.040] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[30Nov2021 22:31:07.044] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:31:07.044] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FTBChunksPlugin
+[30Nov2021 22:31:07.044] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class AstralSorceryPlugin
+[30Nov2021 22:31:07.045] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[30Nov2021 22:31:07.045] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:31:07.045] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[30Nov2021 22:31:07.046] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[30Nov2021 22:31:07.046] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[30Nov2021 22:31:07.056] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:31:07.056] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[30Nov2021 22:31:07.057] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[30Nov2021 22:31:07.058] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[30Nov2021 22:31:07.062] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:31:07.062] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[30Nov2021 22:31:07.062] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[30Nov2021 22:31:07.063] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[30Nov2021 22:31:07.621] [main/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[30Nov2021 22:31:07.621] [main/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[30Nov2021 22:31:07.624] [Thread-1/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[30Nov2021 22:31:07.624] [Thread-1/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[30Nov2021 22:31:07.648] [main/INFO] [me.desht.modularrouters.ModularRouters/]: Common config re-baked
+[30Nov2021 22:31:07.670] [main/INFO] [quark/]: Loading Module Chain Linkage
+[30Nov2021 22:31:07.672] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[30Nov2021 22:31:07.672] [main/INFO] [quark/]: Loading Module Chute
+[30Nov2021 22:31:07.672] [main/INFO] [quark/]: Loading Module Color Slime
+[30Nov2021 22:31:07.672] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[30Nov2021 22:31:07.673] [main/INFO] [quark/]: Loading Module Ender Watcher
+[30Nov2021 22:31:07.673] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[30Nov2021 22:31:07.674] [main/INFO] [quark/]: Loading Module Feeding Trough
+[30Nov2021 22:31:07.674] [main/INFO] [quark/]: Loading Module Gravisand
+[30Nov2021 22:31:07.674] [main/INFO] [quark/]: Loading Module Iron Rod
+[30Nov2021 22:31:07.675] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[30Nov2021 22:31:07.678] [main/INFO] [quark/]: Loading Module Metal Buttons
+[30Nov2021 22:31:07.679] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[30Nov2021 22:31:07.679] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[30Nov2021 22:31:07.682] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[30Nov2021 22:31:07.682] [main/INFO] [quark/]: Loading Module Weather Sensor
+[30Nov2021 22:31:07.683] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[30Nov2021 22:31:07.683] [main/INFO] [quark/]: Loading Module Burn Vines
+[30Nov2021 22:31:07.684] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[30Nov2021 22:31:07.684] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[30Nov2021 22:31:07.684] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[30Nov2021 22:31:07.684] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[30Nov2021 22:31:07.685] [main/INFO] [quark/]: Loading Module Framed Glass
+[30Nov2021 22:31:07.685] [main/INFO] [quark/]: Loading Module Gold Bars
+[30Nov2021 22:31:07.685] [main/INFO] [quark/]: Loading Module Grate
+[30Nov2021 22:31:07.685] [main/INFO] [quark/]: Loading Module Hedges
+[30Nov2021 22:31:07.686] [main/INFO] [quark/]: Loading Module Iron Plates
+[30Nov2021 22:31:07.686] [main/INFO] [quark/]: Loading Module Item Frames
+[30Nov2021 22:31:07.687] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[30Nov2021 22:31:07.687] [main/INFO] [quark/]: Loading Module Lit Lamp
+[30Nov2021 22:31:07.687] [main/INFO] [quark/]: Loading Module Midori
+[30Nov2021 22:31:07.688] [main/INFO] [quark/]: Loading Module More Brick Types
+[30Nov2021 22:31:07.688] [main/INFO] [quark/]: Loading Module More Potted Plants
+[30Nov2021 22:31:07.688] [main/INFO] [quark/]: Loading Module More Stone Variants
+[30Nov2021 22:31:07.689] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[30Nov2021 22:31:07.689] [main/INFO] [quark/]: Loading Module Paper Decor
+[30Nov2021 22:31:07.689] [main/INFO] [quark/]: Loading Module Quilted Wool
+[30Nov2021 22:31:07.690] [main/INFO] [quark/]: Loading Module Rope
+[30Nov2021 22:31:07.690] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[30Nov2021 22:31:07.691] [main/INFO] [quark/]: Loading Module Shingles
+[30Nov2021 22:31:07.691] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[30Nov2021 22:31:07.691] [main/INFO] [quark/]: Loading Module Stained Planks
+[30Nov2021 22:31:07.691] [main/INFO] [quark/]: Loading Module Stools
+[30Nov2021 22:31:07.692] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[30Nov2021 22:31:07.692] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[30Nov2021 22:31:07.693] [main/INFO] [quark/]: Loading Module Thatch
+[30Nov2021 22:31:07.694] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[30Nov2021 22:31:07.695] [main/INFO] [quark/]: Loading Module Turf
+[30Nov2021 22:31:07.695] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[30Nov2021 22:31:07.695] [main/INFO] [quark/]: Loading Module Variant Chests
+[30Nov2021 22:31:07.696] [main/INFO] [quark/]: Loading Module Variant Ladders
+[30Nov2021 22:31:07.696] [main/INFO] [quark/]: Loading Module Vertical Planks
+[30Nov2021 22:31:07.696] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[30Nov2021 22:31:07.696] [main/INFO] [quark/]: Loading Module Wooden Posts
+[30Nov2021 22:31:07.697] [main/INFO] [quark/]: Loading Module Chests In Boats
+[30Nov2021 22:31:07.697] [main/INFO] [quark/]: Loading Module Easy Transfering
+[30Nov2021 22:31:07.697] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[30Nov2021 22:31:07.698] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[30Nov2021 22:31:07.698] [main/INFO] [quark/]: Loading Module Item Sharing
+[30Nov2021 22:31:07.698] [main/INFO] [quark/]: Loading Module Right Click Armor
+[30Nov2021 22:31:07.699] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[30Nov2021 22:31:07.699] [main/INFO] [quark/]: Loading Module Endermosh Music Disc
+[30Nov2021 22:31:07.700] [main/INFO] [quark/]: Loading Module Abacus
+[30Nov2021 22:31:07.700] [main/INFO] [quark/]: Loading Module Ambient Discs
+[30Nov2021 22:31:07.700] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[30Nov2021 22:31:07.701] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[30Nov2021 22:31:07.701] [main/INFO] [quark/]: Loading Module Camera
+[30Nov2021 22:31:07.701] [main/INFO] [quark/]: Loading Module Color Runes
+[30Nov2021 22:31:07.702] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[30Nov2021 22:31:07.702] [main/INFO] [quark/]: Loading Module Pickarang
+[30Nov2021 22:31:07.703] [main/INFO] [quark/]: Loading Module Seed Pouch
+[30Nov2021 22:31:07.703] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[30Nov2021 22:31:07.704] [main/INFO] [quark/]: Loading Module Trowel
+[30Nov2021 22:31:07.704] [main/INFO] [quark/]: Loading Module Skull Pikes
+[30Nov2021 22:31:07.704] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[30Nov2021 22:31:07.705] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[30Nov2021 22:31:07.705] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[30Nov2021 22:31:07.705] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[30Nov2021 22:31:07.706] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[30Nov2021 22:31:07.706] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[30Nov2021 22:31:07.706] [main/INFO] [quark/]: Loading Module Dirt To Path
+[30Nov2021 22:31:07.707] [main/INFO] [quark/]: Loading Module Double Door Opening
+[30Nov2021 22:31:07.707] [main/INFO] [quark/]: Loading Module Dragon Scales
+[30Nov2021 22:31:07.707] [main/INFO] [quark/]: Loading Module Emotes
+[30Nov2021 22:31:07.707] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[30Nov2021 22:31:07.708] [main/INFO] [quark/]: Loading Module Glass Shard
+[30Nov2021 22:31:07.711] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[30Nov2021 22:31:07.711] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[30Nov2021 22:31:07.712] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[30Nov2021 22:31:07.713] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[30Nov2021 22:31:07.713] [main/INFO] [quark/]: Loading Module Lock Rotation
+[30Nov2021 22:31:07.716] [main/INFO] [quark/]: Loading Module More Banner Layers
+[30Nov2021 22:31:07.716] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[30Nov2021 22:31:07.717] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[30Nov2021 22:31:07.718] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[30Nov2021 22:31:07.718] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[30Nov2021 22:31:07.719] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[30Nov2021 22:31:07.719] [main/INFO] [quark/]: Loading Module Sign Editing
+[30Nov2021 22:31:07.719] [main/INFO] [quark/]: Loading Module Simple Harvest
+[30Nov2021 22:31:07.720] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[30Nov2021 22:31:07.720] [main/INFO] [quark/]: Loading Module Springy Slime
+[30Nov2021 22:31:07.720] [main/INFO] [quark/]: Loading Module Utility Recipes
+[30Nov2021 22:31:07.721] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[30Nov2021 22:31:07.722] [main/INFO] [quark/]: Loading Module Big Dungeon
+[30Nov2021 22:31:07.722] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[30Nov2021 22:31:07.723] [main/INFO] [quark/]: Loading Module Biotite
+[30Nov2021 22:31:07.723] [main/INFO] [quark/]: Loading Module Blossom Trees
+[30Nov2021 22:31:07.725] [main/INFO] [quark/]: Loading Module Cave Roots
+[30Nov2021 22:31:07.725] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[30Nov2021 22:31:07.726] [main/INFO] [quark/]: Loading Module Crevices
+[30Nov2021 22:31:07.726] [main/INFO] [quark/]: Loading Module Deepslate
+[30Nov2021 22:31:07.726] [main/INFO] [quark/]: Loading Module Fairy Rings
+[30Nov2021 22:31:07.727] [main/INFO] [quark/]: Loading Module Mega Caves
+[30Nov2021 22:31:07.727] [main/INFO] [quark/]: Loading Module Monster Box
+[30Nov2021 22:31:07.728] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[30Nov2021 22:31:07.728] [main/INFO] [quark/]: Loading Module New Stone Types
+[30Nov2021 22:31:07.728] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[30Nov2021 22:31:07.729] [main/INFO] [quark/]: Loading Module Speleothems
+[30Nov2021 22:31:07.729] [main/INFO] [quark/]: Loading Module Spiral Spires
+[30Nov2021 22:31:07.729] [main/INFO] [quark/]: Loading Module Underground Clay
+[30Nov2021 22:31:07.730] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[30Nov2021 22:31:07.730] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[30Nov2021 22:31:07.730] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[30Nov2021 22:31:07.730] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[30Nov2021 22:31:07.731] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[30Nov2021 22:31:07.731] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[30Nov2021 22:31:07.731] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[30Nov2021 22:31:07.732] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[30Nov2021 22:31:07.732] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[30Nov2021 22:31:07.732] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[30Nov2021 22:31:07.733] [main/INFO] [quark/]: Loading Module Crabs
+[30Nov2021 22:31:07.734] [main/INFO] [quark/]: Loading Module Forgotten
+[30Nov2021 22:31:07.734] [main/INFO] [quark/]: Loading Module Foxhound
+[30Nov2021 22:31:07.734] [main/INFO] [quark/]: Loading Module Frogs
+[30Nov2021 22:31:07.735] [main/INFO] [quark/]: Loading Module Stonelings
+[30Nov2021 22:31:07.735] [main/INFO] [quark/]: Loading Module Toretoise
+[30Nov2021 22:31:07.735] [main/INFO] [quark/]: Loading Module Wraith
+[30Nov2021 22:31:07.736] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[30Nov2021 22:31:07.736] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[30Nov2021 22:31:07.736] [main/INFO] [quark/]: Loading Module Chest Searching
+[30Nov2021 22:31:07.736] [main/INFO] [quark/]: Loading Module Greener Grass
+[30Nov2021 22:31:07.737] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[30Nov2021 22:31:07.738] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[30Nov2021 22:31:07.738] [main/INFO] [quark/]: Loading Module Usage Ticker
+[30Nov2021 22:31:07.738] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[30Nov2021 22:31:07.739] [main/INFO] [quark/]: Loading Module Backpack
+[30Nov2021 22:31:07.741] [main/INFO] [quark/]: Loading Module Crate
+[30Nov2021 22:31:07.741] [main/INFO] [quark/]: Loading Module Magnets
+[30Nov2021 22:31:07.742] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[30Nov2021 22:31:07.742] [main/INFO] [quark/]: Loading Module Pipes
+[30Nov2021 22:31:07.742] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[30Nov2021 22:31:07.743] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[30Nov2021 22:31:07.743] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[30Nov2021 22:31:07.743] [main/INFO] [quark/]: Loading Module Game Nerfs
+[30Nov2021 22:31:07.743] [main/INFO] [quark/]: Loading Module Narrator Readout
+[30Nov2021 22:31:07.744] [main/INFO] [quark/]: Loading Module Overlay Shader
+[30Nov2021 22:31:07.744] [main/INFO] [quark/]: Loading Module Pallet
+[30Nov2021 22:31:07.744] [main/INFO] [quark/]: Loading Module Shiba
+[30Nov2021 22:31:07.780] [modloading-worker-4/INFO] [HammerLib/]: Setup HammerLib networking!
+[30Nov2021 22:31:07.785] [modloading-worker-8/INFO] [com.dynamic_view.DynView/]: Zooming chunks initiated!
+[30Nov2021 22:31:07.788] [modloading-worker-14/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class ImmersiveEngineeringPlugin
+[30Nov2021 22:31:07.790] [modloading-worker-14/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class FTBChunksPlugin
+[30Nov2021 22:31:07.790] [modloading-worker-14/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class AstralSorceryPlugin
+[30Nov2021 22:31:07.791] [modloading-worker-14/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[30Nov2021 22:31:07.797] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: --- LootTable import: Start ---
+[30Nov2021 22:31:07.810] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 13: Added loot to table: Strainer: strainer_survivalist - Item: minecraft:sand - Count: 1 - Group: null - Chance: 30 - Subchance: 100 - NBT: null
+[30Nov2021 22:31:07.811] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 14: Added loot to table: Strainer: strainer_survivalist - Item: minecraft:dirt - Count: 1 - Group: null - Chance: 20 - Subchance: 100 - NBT: null
+[30Nov2021 22:31:07.811] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 15: Added loot to table: Strainer: strainer_survivalist - Item: minecraft:stick - Count: 1 - Group: null - Chance: 20 - Subchance: 100 - NBT: null
+[30Nov2021 22:31:07.812] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 16: Added loot to table: Strainer: strainer_survivalist - Item: minecraft:clay_ball - Count: 1 - Group: null - Chance: 15 - Subchance: 100 - NBT: null
+[30Nov2021 22:31:07.812] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 17: Added loot to table: Strainer: strainer_survivalist - Item: minecraft:gravel - Count: 1 - Group: null - Chance: 13 - Subchance: 100 - NBT: null
+[30Nov2021 22:31:07.813] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 18: Added loot to table: Strainer: strainer_survivalist - Item: minecraft:iron_nugget - Count: 1 - Group: NUGGET - Chance: 2 - Subchance: 75 - NBT: null
+[30Nov2021 22:31:07.814] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 19: Added loot to table: Strainer: strainer_survivalist - Item: minecraft:gold_nugget - Count: 1 - Group: NUGGET - Chance: 2 - Subchance: 25 - NBT: null
+[30Nov2021 22:31:07.814] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 21: Copied loot table data from <parent> 'strainer_survivalist' to <child> 'strainer_survivalist_solid'
+[30Nov2021 22:31:07.816] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 22: Copied loot table data from <parent> 'strainer_survivalist' to <child> 'strainer_survivalist_reinforced'
+[30Nov2021 22:31:07.816] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 25: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:cod - Count: 1 - Group: FISH - Chance: 100 - Subchance: 60 - NBT: null
+[30Nov2021 22:31:07.817] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 26: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:salmon - Count: 1 - Group: FISH - Chance: 100 - Subchance: 25 - NBT: null
+[30Nov2021 22:31:07.818] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 27: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:pufferfish - Count: 1 - Group: FISH - Chance: 100 - Subchance: 13 - NBT: null
+[30Nov2021 22:31:07.818] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 28: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:tropical_fish - Count: 1 - Group: FISH - Chance: 100 - Subchance: 2 - NBT: null
+[30Nov2021 22:31:07.818] [modloading-worker-8/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
+[30Nov2021 22:31:07.818] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 29: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:stick - Count: 1 - Group: JUNK - Chance: 30 - Subchance: 22 - NBT: null
+[30Nov2021 22:31:07.819] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 30: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:string - Count: 1 - Group: JUNK - Chance: 30 - Subchance: 13 - NBT: null
+[30Nov2021 22:31:07.819] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 31: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:leather - Count: 1 - Group: JUNK - Chance: 30 - Subchance: 13 - NBT: null
+[30Nov2021 22:31:07.822] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 32: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:rotten_flesh - Count: 1 - Group: JUNK - Chance: 30 - Subchance: 13 - NBT: null
+[30Nov2021 22:31:07.823] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 33: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:bone - Count: 1 - Group: JUNK - Chance: 30 - Subchance: 13 - NBT: null
+[30Nov2021 22:31:07.823] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 34: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:glass_bottle - Count: 1 - Group: JUNK - Chance: 30 - Subchance: 12 - NBT: null
+[30Nov2021 22:31:07.824] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 35: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:lily_pad - Count: 1 - Group: JUNK - Chance: 30 - Subchance: 7 - NBT: null
+[30Nov2021 22:31:07.823] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_levels' ASM patch...
+[30Nov2021 22:31:07.824] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 36: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:vine - Count: 1 - Group: JUNK - Chance: 30 - Subchance: 7 - NBT: null
+[30Nov2021 22:31:07.825] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_levels' ASM patch!
+[30Nov2021 22:31:07.826] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 37: Added loot to table: Strainer: strainer_fisherman - Item: minecraft:enchanted_book - Count: 1 - Group: null - Chance: 1 - Subchance: 100 - NBT: null
+[30Nov2021 22:31:07.827] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 38: Added loot to table: Strainer: strainer_fisherman - Item: $BLANK$ - Count: 1 - Group: null - Chance: 69 - Subchance: 100 - NBT: null
+[30Nov2021 22:31:07.828] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_enchantments' ASM patch...
+[30Nov2021 22:31:07.828] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[30Nov2021 22:31:07.828] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 40: Copied loot table data from <parent> 'strainer_fisherman' to <child> 'strainer_fisherman_solid'
+[30Nov2021 22:31:07.829] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: [SUCCESS] Line 41: Copied loot table data from <parent> 'strainer_fisherman' to <child> 'strainer_fisherman_reinforced'
+[30Nov2021 22:31:07.829] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: Result: Found 0 errors
+[30Nov2021 22:31:07.828] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_enchantments' ASM patch!
+[30Nov2021 22:31:07.830] [modloading-worker-15/INFO] [mods.waterstrainer.WaterStrainer/]: --- LootTable import: End ---
+[30Nov2021 22:31:07.831] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_apply_modifier' ASM patch...
+[30Nov2021 22:31:07.834] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_apply_modifier' ASM patch!
+[30Nov2021 22:31:07.837] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#getEnchantmentModifierDamage
+[30Nov2021 22:31:07.839] [modloading-worker-10/INFO] [Nature's Aura/]: Loading compat module for mod patchouli
+[30Nov2021 22:31:07.840] [modloading-worker-10/INFO] [Nature's Aura/]: Loading compat module for mod curios
+[30Nov2021 22:31:07.846] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#getModifierForCreature
+[30Nov2021 22:31:07.848] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#applyThornEnchantments
+[30Nov2021 22:31:07.852] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TTileChangeTile
+[30Nov2021 22:31:07.873] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#applyArthropodEnchantments
+[30Nov2021 22:31:07.874] [modloading-worker-13/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: mrtjp/projectred/illumination/LightMicroblock
+[30Nov2021 22:31:07.882] [modloading-worker-13/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: mrtjp/projectred/illumination/ILightMicroblockMixinMarker, Side: COMMON
+[30Nov2021 22:31:07.883] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/INeighborTileChangePart, Side: SERVER
+[30Nov2021 22:31:07.888] [modloading-worker-8/INFO] [thetadev.constructionwand.ConstructionWand/]: Botania integration added
+[30Nov2021 22:31:07.889] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching buildEnchantmentList for the Enchantability affix.
+[30Nov2021 22:31:07.892] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching EnchantmentHelper#getEnchantmentDatas
+[30Nov2021 22:31:07.898] [modloading-worker-9/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching vazkii/quark/content/tools/module/AncientTomesModule
+[30Nov2021 22:31:07.921] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of all entities from cyberware
+[30Nov2021 22:31:07.922] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of all entities from withercrumbs
+[30Nov2021 22:31:07.923] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of twighlightforest:knight_phantom
+[30Nov2021 22:31:07.923] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of twighlightforest:lich
+[30Nov2021 22:31:07.924] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of twighlightforest:quest_ram
+[30Nov2021 22:31:07.924] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_worker
+[30Nov2021 22:31:07.925] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_soldier
+[30Nov2021 22:31:07.925] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_sentinel
+[30Nov2021 22:31:07.928] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_royal
+[30Nov2021 22:31:07.929] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_queen
+[30Nov2021 22:31:07.930] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from cyberware
+[30Nov2021 22:31:07.931] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from ebwizardry
+[30Nov2021 22:31:07.931] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from eplus
+[30Nov2021 22:31:07.932] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from everlastingabilities
+[30Nov2021 22:31:07.932] [modloading-worker-3/INFO] [pneumaticcraft/]: PneumaticCraft: Repressurized is loading!
+[30Nov2021 22:31:07.933] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_dimlet
+[30Nov2021 22:31:07.933] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_terrain_dimlet
+[30Nov2021 22:31:07.934] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_attribute_dimlet
+[30Nov2021 22:31:07.934] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_feature_dimlet
+[30Nov2021 22:31:07.935] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_biome_dimlet
+[30Nov2021 22:31:07.936] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_biome_controller_dimlet
+[30Nov2021 22:31:07.936] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_biome_controller_dimlet
+[30Nov2021 22:31:07.936] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_block_dimlet
+[30Nov2021 22:31:07.937] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_fluid_dimlet
+[30Nov2021 22:31:07.937] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TTickableTile
+[30Nov2021 22:31:07.938] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/ITickablePart, Side: COMMON
+[30Nov2021 22:31:07.938] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_time_dimlet
+[30Nov2021 22:31:07.939] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:terrain_dimlet
+[30Nov2021 22:31:07.940] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:attribute_dimlet
+[30Nov2021 22:31:07.940] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:feature_dimlet
+[30Nov2021 22:31:07.941] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:biome_dimlet
+[30Nov2021 22:31:07.941] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:biome_controller_dimlet
+[30Nov2021 22:31:07.942] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:block_dimlet
+[30Nov2021 22:31:07.942] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:fluid_dimlet
+[30Nov2021 22:31:07.943] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:time_dimlet
+[30Nov2021 22:31:07.943] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:digit_dimlet
+[30Nov2021 22:31:07.943] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:admin_dimlet
+[30Nov2021 22:31:07.947] [modloading-worker-12/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from cyberware
+[30Nov2021 22:31:07.950] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TSlottedTile
+[30Nov2021 22:31:07.950] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/TSlottedPart, Side: COMMON
+[30Nov2021 22:31:07.955] [modloading-worker-12/INFO] [ipsis.woot.setup.ModSetup/]: C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\woot\loot.json
+[30Nov2021 22:31:07.956] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TRedstoneTile
+[30Nov2021 22:31:07.957] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/redstone/IRedstonePart, Side: COMMON
+[30Nov2021 22:31:07.964] [modloading-worker-11/INFO] [com.logprot.Logprot/]: Shields up!
+[30Nov2021 22:31:07.967] [modloading-worker-13/INFO] [wile.engineerstools.ModEngineersTools/]: Registering recipe condition processor ...
+[30Nov2021 22:31:07.990] [modloading-worker-8/INFO] [mythicbotany/]: Loading MythicBotany
+[30Nov2021 22:31:08.007] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TPartialOcclusionTile
+[30Nov2021 22:31:08.009] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/TPartialOcclusionPart, Side: COMMON
+[30Nov2021 22:31:08.013] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[30Nov2021 22:31:08.013] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[30Nov2021 22:31:08.017] [modloading-worker-6/INFO] [Mekanism/]: Version 10.0.24 initializing...
+[30Nov2021 22:31:08.021] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_3_COUNT -> 4
+[30Nov2021 22:31:08.021] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_3_COUNT -> 4
+[30Nov2021 22:31:08.022] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of botania:doppleganger:PERK_MASS_3_COUNT -> 4
+[30Nov2021 22:31:08.023] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:SPAWN_TICKS -> 1200
+[30Nov2021 22:31:08.025] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:SPAWN_TICKS -> 12000
+[30Nov2021 22:31:08.025] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of botania:doppleganger:SPAWN_TICKS -> 12000
+[30Nov2021 22:31:08.027] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_1_COUNT -> 2
+[30Nov2021 22:31:08.028] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_1_COUNT -> 2
+[30Nov2021 22:31:08.029] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of botania:doppleganger:PERK_MASS_1_COUNT -> 2
+[30Nov2021 22:31:08.030] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:HEALTH -> 500
+[30Nov2021 22:31:08.031] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of botania:doppleganger:HEALTH -> 250
+[30Nov2021 22:31:08.032] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither_skeleton:TIER -> 4
+[30Nov2021 22:31:08.033] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:villager:TIER -> 4
+[30Nov2021 22:31:08.033] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[30Nov2021 22:31:08.034] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:magma_cube:TIER -> 3
+[30Nov2021 22:31:08.035] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:enderman:TIER -> 4
+[30Nov2021 22:31:08.039] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:villager_golem:TIER -> 4
+[30Nov2021 22:31:08.039] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:guardian:TIER -> 4
+[30Nov2021 22:31:08.037] [modloading-worker-1/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[30Nov2021 22:31:08.035] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[30Nov2021 22:31:08.041] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[30Nov2021 22:31:08.040] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:blaze:TIER -> 3
+[30Nov2021 22:31:08.041] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[30Nov2021 22:31:08.042] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[30Nov2021 22:31:08.042] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:witch:TIER -> 3
+[30Nov2021 22:31:08.043] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TCapabilityTile
+[30Nov2021 22:31:08.043] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/ICapabilityProviderPart, Side: COMMON
+[30Nov2021 22:31:08.043] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ghast:TIER -> 3
+[30Nov2021 22:31:08.044] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:zombie_pigman:TIER -> 3
+[30Nov2021 22:31:08.045] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:TIER -> 5
+[30Nov2021 22:31:08.045] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:TIER -> 5
+[30Nov2021 22:31:08.045] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of botania:doppleganger:TIER -> 5
+[30Nov2021 22:31:08.046] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_2_COUNT -> 3
+[30Nov2021 22:31:08.046] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_2_COUNT -> 3
+[30Nov2021 22:31:08.047] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of botania:doppleganger:PERK_MASS_2_COUNT -> 3
+[30Nov2021 22:31:08.047] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:iron_golem:XP -> 20
+[30Nov2021 22:31:08.049] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:bat:XP -> 1
+[30Nov2021 22:31:08.049] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:snow_golem:XP -> 1
+[30Nov2021 22:31:08.053] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:villager:XP -> 2
+[30Nov2021 22:31:08.053] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wandering_villager:XP -> 2
+[30Nov2021 22:31:08.053] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:XP -> 500
+[30Nov2021 22:31:08.054] [modloading-worker-12/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of botania:doppleganger:XP -> 1
+[30Nov2021 22:31:08.055] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TAnimateTickTile
+[30Nov2021 22:31:08.055] [modloading-worker-15/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/AnimateTickPart, Side: CLIENT
+[30Nov2021 22:31:08.061] [modloading-worker-13/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[30Nov2021 22:31:08.064] [modloading-worker-12/INFO] [ipsis.woot.setup.ModSetup/]: SkullGenerator: minecraft:skeleton -> 1 skeleton_skull
+[30Nov2021 22:31:08.067] [modloading-worker-12/INFO] [ipsis.woot.setup.ModSetup/]: SkullGenerator: minecraft:wither_skeleton -> 1 wither_skeleton_skull
+[30Nov2021 22:31:08.068] [modloading-worker-12/INFO] [ipsis.woot.setup.ModSetup/]: SkullGenerator: minecraft:zombie -> 1 zombie_head
+[30Nov2021 22:31:08.068] [modloading-worker-12/INFO] [ipsis.woot.setup.ModSetup/]: SkullGenerator: minecraft:creeper -> 1 creeper_head
+[30Nov2021 22:31:08.070] [modloading-worker-12/WARN] [ipsis.woot.setup.ModSetup/]: Failed to load loot file C:\Users\Solj1n\Desktop\All the Mods 6 1.16.4\woot\loot.json
+[30Nov2021 22:31:08.073] [modloading-worker-8/INFO] [info.partonetrain.managear.ManaGear/]: ManaGear Installed -  Please ensure you downloaded from CurseForge!
+[30Nov2021 22:31:08.080] [modloading-worker-5/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[30Nov2021 22:31:08.080] [modloading-worker-5/INFO] [wile.rsgauges.ModRsGauges/]: Registering recipe condition processor ...
+[30Nov2021 22:31:08.084] [modloading-worker-8/INFO] [incontrol/]: Enabling support for Lost Cities
+[30Nov2021 22:31:08.084] [modloading-worker-8/INFO] [incontrol/]: Enabling support for Lost Cities
+[30Nov2021 22:31:08.097] [modloading-worker-11/INFO] [TerraForged/]: Common setup
+[30Nov2021 22:31:08.123] [modloading-worker-10/INFO] [Nature's Aura/]: -- Nature's Aura Fake Player Information --
+[30Nov2021 22:31:08.124] [modloading-worker-10/INFO] [Nature's Aura/]: Name: [Minecraft]
+[30Nov2021 22:31:08.128] [modloading-worker-10/INFO] [Nature's Aura/]: UUID: 41C82C87-7AfB-4024-BA57-13D2C99CAE77
+[30Nov2021 22:31:08.131] [modloading-worker-10/INFO] [Nature's Aura/]: -------------------------------------------
+[30Nov2021 22:31:08.152] [modloading-worker-8/INFO] [incontrol/]: Reading rules from spawn.json
+[30Nov2021 22:31:08.152] [modloading-worker-0/INFO] [Bookshelf/]: Registering 3 command argument types.
+[30Nov2021 22:31:08.153] [modloading-worker-0/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[30Nov2021 22:31:08.196] [modloading-worker-14/INFO] [integrateddynamics/]: Registered packet handler.
+[30Nov2021 22:31:08.217] [modloading-worker-7/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
+[30Nov2021 22:31:08.226] [modloading-worker-8/INFO] [incontrol/]: Reading rules from summonaid.json
+[30Nov2021 22:31:08.234] [modloading-worker-8/INFO] [incontrol/]: Reading rules from potentialspawn.json
+[30Nov2021 22:31:08.238] [modloading-worker-1/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[30Nov2021 22:31:08.251] [modloading-worker-8/INFO] [incontrol/]: Reading rules from loot.json
+[30Nov2021 22:31:08.252] [modloading-worker-12/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.capability.ManaCapability:register:62]: Finished Registering ManaCapability
+[30Nov2021 22:31:08.254] [modloading-worker-6/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[30Nov2021 22:31:08.255] [modloading-worker-6/INFO] [Mekanism/]: Loading complete.
+[30Nov2021 22:31:08.256] [modloading-worker-6/INFO] [Mekanism/]: Mod loaded.
+[30Nov2021 22:31:08.260] [modloading-worker-12/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.api.familiar.FamiliarCap:register:97]: Finished Registering FamiliarCap
+[30Nov2021 22:31:08.260] [modloading-worker-8/INFO] [incontrol/]: Reading rules from experience.json
+[30Nov2021 22:31:08.273] [modloading-worker-12/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.network.Networking:registerMessages:27]: Registering packets!!
+[30Nov2021 22:31:08.280] [modloading-worker-8/INFO] [incontrol/]: Reading rules from phases.json
+[30Nov2021 22:31:08.290] [modloading-worker-8/INFO] [incontrol/]: Reading rules from spawner.json
+[30Nov2021 22:31:08.297] [modloading-worker-8/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[30Nov2021 22:31:08.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: Global Forge version check system disabled, no further processing.
+[30Nov2021 22:31:08.329] [modloading-worker-13/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[30Nov2021 22:31:08.369] [modloading-worker-13/INFO] [tramplestopper.TrampleStopper/]: Hello
+[30Nov2021 22:31:08.394] [modloading-worker-8/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[30Nov2021 22:31:08.429] [modloading-worker-7/INFO] [Dungeon Crawl/]: Common Setup
+[30Nov2021 22:31:08.438] [modloading-worker-1/INFO] [STDOUT/]: [scala.Console$:println:268]: Loading ProjectRed compatibility: ComputerCraft
+[30Nov2021 22:31:08.451] [modloading-worker-7/INFO] [Dungeon Crawl/]: Whitelisted Dimensions:
+[30Nov2021 22:31:08.455] [modloading-worker-7/INFO] [Dungeon Crawl/]: minecraft:overworld
+[30Nov2021 22:31:08.458] [modloading-worker-1/INFO] [mcjtylib/]: XNet Detected RFTools Control: enabling support
+[30Nov2021 22:31:08.480] [modloading-worker-2/INFO] [travel_anchors/]: Loading TravelAnchors
+[30Nov2021 22:31:08.482] [modloading-worker-2/INFO] [mcjtylib/]: RFTools Storage Detected XNet: enabling support
+[30Nov2021 22:31:08.610] [modloading-worker-9/INFO] [AE2:C/]: Post Initialization ( started )
+[30Nov2021 22:31:08.616] [AstralSorcery Patreon Effect Loader/WARN] [Astral Sorcery/]: Skipped 1 patreon effects during loading due to malformed data!
+[30Nov2021 22:31:08.617] [AstralSorcery Patreon Effect Loader/INFO] [Astral Sorcery/]: Patreon effect loading finished.
+[30Nov2021 22:31:08.636] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[30Nov2021 22:31:08.666] [modloading-worker-9/INFO] [AE2:C/]: Post Initialization ( ended after 62ms )
+[30Nov2021 22:31:08.705] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[30Nov2021 22:31:08.709] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[30Nov2021 22:31:08.711] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[30Nov2021 22:31:08.711] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[30Nov2021 22:31:08.712] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[30Nov2021 22:31:08.713] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[30Nov2021 22:31:08.713] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[30Nov2021 22:31:08.714] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[30Nov2021 22:31:08.714] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[30Nov2021 22:31:08.715] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[30Nov2021 22:31:08.716] [modloading-worker-10/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registering recipe condition processor ...
+[30Nov2021 22:31:08.736] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[30Nov2021 22:31:08.737] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 2 uraninite_raw = 1 uraninite_raw_dense
+[30Nov2021 22:31:08.737] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 2 uraninite_raw_poor = 1 uraninite_raw
+[30Nov2021 22:31:08.738] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 sand_1 = 1 sand_2
+[30Nov2021 22:31:08.738] [modloading-worker-13/INFO] [me.desht.modularrouters.ModularRouters/]: Modular Routers is loading!
+[30Nov2021 22:31:08.738] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 sand = 1 sand_1
+[30Nov2021 22:31:08.830] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.836] [modloading-worker-4/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.passive.ParrotEntity from class com.stal111.forbidden_arcanus.entity.PixieEntity
+[30Nov2021 22:31:08.836] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.837] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for forbidden_arcanus:pixie, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.839] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.840] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.850] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.854] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.854] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.856] [modloading-worker-0/INFO] [com.ma.ManaAndArtifice/]: M&A -> Network Messages Registered
+[30Nov2021 22:31:08.868] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.869] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.871] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:08.878] [modloading-worker-0/INFO] [com.ma.ManaAndArtifice/]: Mana And Artifice >> Registered loot functions
+[30Nov2021 22:31:08.978] [modloading-worker-0/INFO] [com.ma.ManaAndArtifice/]: M&A -> Capabilities Registered
+[30Nov2021 22:31:08.979] [modloading-worker-0/INFO] [com.ma.ManaAndArtifice/]: M&A -> Flower Pots Registered
+[30Nov2021 22:31:09.690] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanism:robit, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:09.807] [main/WARN] [Advanced Peripherals/]: Successfully loaded integration for mekanismgenerators
+[30Nov2021 22:31:09.813] [main/WARN] [Advanced Peripherals/]: Successfully loaded integration for mekanism
+[30Nov2021 22:31:09.827] [main/WARN] [Advanced Peripherals/]: Successfully loaded integration for botania
+[30Nov2021 22:31:09.831] [main/WARN] [Advanced Peripherals/]: Successfully loaded integration for immersiveengineering
+[30Nov2021 22:31:09.835] [main/WARN] [Advanced Peripherals/]: Successfully loaded integration for integrateddynamics
+[30Nov2021 22:31:09.837] [main/WARN] [Advanced Peripherals/]: Successfully loaded integration for storagedrawers
+[30Nov2021 22:31:09.841] [main/WARN] [Advanced Peripherals/]: Successfully loaded integration for create
+[30Nov2021 22:31:09.843] [main/WARN] [Advanced Peripherals/]: Successfully loaded integration for draconicevolution
+[30Nov2021 22:31:09.967] [main/INFO] [STDOUT/]: [elucent.eidolon.Registry:addBrewingRecipes:402]: calling addBrewingRecipes
+[30Nov2021 22:31:09.971] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:zombie_brute, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:09.971] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:wraith, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:09.971] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:necromancer, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:09.975] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_creeper, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:09.975] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_enderman, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:09.975] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_skeleton, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:09.975] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_stray, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:09.976] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_wither_skeleton, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.042] [main/INFO] [Dungeon Crawl/]: Registering Structure Piece Types
+[30Nov2021 22:31:10.204] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Recipe Types Registered
+[30Nov2021 22:31:10.425] [modloading-worker-1/INFO] [net.blay09.mods.craftingtweaks.CraftingTweaks/]: refinedstorage has registered com.refinedmods.refinedstorage.container.GridContainer for CraftingTweaks
+[30Nov2021 22:31:10.429] [modloading-worker-11/INFO] [pneumaticcraft/]: Enabled support for The One Probe
+[30Nov2021 22:31:10.432] [modloading-worker-1/INFO] [net.blay09.mods.craftingtweaks.CraftingTweaks/]: craftingstation has registered com.tfar.craftingstation.CraftingStationContainer for CraftingTweaks
+[30Nov2021 22:31:10.432] [modloading-worker-1/INFO] [net.blay09.mods.craftingtweaks.CraftingTweaks/]: fastbench has registered shadows.fastbench.gui.ContainerFastBench for CraftingTweaks
+[30Nov2021 22:31:10.433] [modloading-worker-11/INFO] [ipsis.woot.setup.ModSetup/]: Enabling support The One Probe
+[30Nov2021 22:31:10.434] [modloading-worker-11/INFO] [mcjtylib/]: Enabled support for The One Probe
+[30Nov2021 22:31:10.448] [modloading-worker-11/INFO] [mcjtylib/]: Enabled support for The One Probe
+[30Nov2021 22:31:10.451] [modloading-worker-11/INFO] [me.desht.modularrouters.ModularRouters/]: Enabled support for The One Probe
+[30Nov2021 22:31:10.470] [modloading-worker-11/INFO] [tombstone/]: Integration TOP
+[30Nov2021 22:31:10.509] [modloading-worker-8/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Default Bee Traits...
+[30Nov2021 22:31:10.518] [modloading-worker-2/INFO] [TerraForged/]: Loaded TerraForged version 0.2.16-BETA-2
+[30Nov2021 22:31:10.518] [modloading-worker-8/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Custom Traits...
+[30Nov2021 22:31:10.520] [modloading-worker-5/WARN] [minecolonies/]: FMLLoadCompleteEvent
+[30Nov2021 22:31:10.520] [modloading-worker-6/INFO] [STDOUT/]: [com.mrh0.buildersaddition.BuildersAddition:postInit:80]: Builders Addition Initialized!
+[30Nov2021 22:31:10.522] [modloading-worker-3/INFO] [powah/Config]: Added coolant fluid: minecraft:water, with coldness of: 1 per mb
+[30Nov2021 22:31:10.522] [modloading-worker-3/INFO] [powah/Config]: Added block: minecraft:lava, with heat of: 1000
+[30Nov2021 22:31:10.522] [modloading-worker-3/INFO] [powah/Config]: Added block: minecraft:magma_block, with heat of: 800
+[30Nov2021 22:31:10.523] [modloading-worker-3/INFO] [powah/Config]: Added block: powah:blazing_crystal_block, with heat of: 2800
+[30Nov2021 22:31:10.524] [modloading-worker-3/INFO] [powah/Config]: Added fluid: minecraft:lava, with heat of: 10000 per 100 mb
+[30Nov2021 22:31:10.523] [modloading-worker-13/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[30Nov2021 22:31:10.525] [modloading-worker-13/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[30Nov2021 22:31:10.525] [modloading-worker-7/INFO] [STDOUT/]: [com.mrh0.createaddition.CreateAddition:postInit:130]: Create Crafts & Addition Initialized!
+[30Nov2021 22:31:10.538] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:demon_lord, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.538] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:faerie_queen, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.539] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:ancient_council, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.540] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:magic_broom, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.540] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:animated_construct, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.541] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:manaweave_entity, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.541] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:mushroom_soldier, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.541] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:pixie, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.542] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:demon_imp, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.542] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:hulking_zombie, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.542] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:skeleton_assassin, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.543] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:lantern_wraith, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.543] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:spell_breaker, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.544] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:witch_hunter, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.544] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:decoy_entity, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.545] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:animus_block, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.545] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:wandering_wizard, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.546] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:broker, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.546] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:spectral_horse, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.546] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:lich, use EntityAttributeCreationEvent instead.
+[30Nov2021 22:31:10.569] [modloading-worker-5/WARN] [minecolonies/]: Register mappings
+[30Nov2021 22:31:10.569] [modloading-worker-8/WARN] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Trait 'Unobtainium' given to 'unobtainium' does not exist in trait registry.
+[30Nov2021 22:31:10.570] [modloading-worker-8/WARN] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Trait 'Vibranium' given to 'vibranium' does not exist in trait registry.
+[30Nov2021 22:31:10.571] [modloading-worker-9/INFO] [com.ma.ManaAndArtifice/]: M&A API initialized, it is now useable
+[30Nov2021 22:31:10.571] [Phosphophyllite Registry Worker/INFO] [Phosphophyllite/Registry/]: Thread stopped
+[30Nov2021 22:31:10.968] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Compostible Blocks Added!
+[30Nov2021 22:31:10.970] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Hoeable Blocks!
+[30Nov2021 22:31:10.974] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Flammables!
+[30Nov2021 22:31:10.978] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added strippable Blocks...
+[30Nov2021 22:31:44.312] [main/INFO] [TerraForged/]: Creating TerraForged level settings
+[30Nov2021 22:31:44.392] [main/INFO] [TerraForged/]: Creating TerraForged chunk-generator from preset All The Mods 6
+[30Nov2021 22:31:44.662] [main/INFO] [TerraForged/]: Loading vanilla base decorator
+[30Nov2021 22:31:44.688] [main/INFO] [TerraForged/]: Creating dimension: minecraft:overworld
+[30Nov2021 22:31:44.708] [main/INFO] [TerraForged/]: Creating dimension: minecraft:the_nether
+[30Nov2021 22:31:44.721] [main/INFO] [TerraForged/]: Creating dimension: minecraft:the_end
+[30Nov2021 22:31:44.731] [main/INFO] [TerraForged/]: Overriding dimension minecraft:the_nether with byg:world's
+[30Nov2021 22:31:44.732] [main/INFO] [TerraForged/]: Overriding dimension minecraft:the_end with byg:world's
+[30Nov2021 22:31:44.833] [main/INFO] [TerraForged/]: Adding extra dimension appliedenergistics2:spatial_storage dimension from quark:realistic
+[30Nov2021 22:31:44.877] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Nov2021 22:31:44.913] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:1.8.0_311]
+	at sun.nio.ch.FileDispatcherImpl.write(Unknown Source) ~[?:1.8.0_311]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source) ~[?:1.8.0_311]
+	at sun.nio.ch.IOUtil.write(Unknown Source) ~[?:1.8.0_311]
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source) ~[?:1.8.0_311]
+	at net.minecraft.server.SessionLockManager.func_232998_a_(SourceFile:40) ~[?:?]
+	at net.minecraft.world.storage.SaveFormat$LevelSave.<init>(SaveFormat.java:277) ~[?:?]
+	at net.minecraft.world.storage.SaveFormat.func_237274_c_(SaveFormat.java:265) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_311]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_311]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_311]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_311]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.2.8.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.2.8.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.2.8.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.2.8.jar:?]
